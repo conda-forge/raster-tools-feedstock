@@ -1,5 +1,5 @@
 {% set name = "raster-tools" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/raster_tools-{{ version }}.tar.gz
-  sha256: d1216edf5baeb2f33c96d89f459858a630a833eee70b3b8f65c1b7535fc4b29c
+  sha256: af14982320a384240576fdf611b7b70ca50a12b2b7320115d44724a5b99719e1
 
 build:
   noarch: python
