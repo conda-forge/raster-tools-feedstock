@@ -1,5 +1,5 @@
 {% set name = "raster-tools" %}
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/raster_tools-{{ version }}.tar.gz
-  sha256: 35970cf36a118f0bb69d1adbe42fad1aeef88502ba502fa773c63b410c4e8807
+  sha256: d84fe5411d452d0da4e5f8ae70761aaff5c379c21c7bcf5364ea0c5e34482d45
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - dask-geopandas >=0.4.3
     - dask-image
     - fiona
-    - geopandas
+    - geopandas >=1.0
     - numba
     - numpy >=1.22
     - odc-geo
